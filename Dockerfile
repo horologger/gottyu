@@ -6,7 +6,7 @@ LABEL maintainer="horologger <horologger@protonmail.com>"
 # ARG CACHEBUST=1
 
 RUN apt update && apt upgrade -y
-RUN apt-get install -y curl lsb-release lsb-core net-tools iproute2
+RUN apt-get install -y curl lsb-release lsb-core net-tools iproute2 rsyslog
 
 # RUN mkdir /gotty
 
